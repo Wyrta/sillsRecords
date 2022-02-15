@@ -1,0 +1,78 @@
+a { 
+    font-family: "Courier New", serif; 
+    color: lightgray;
+}
+
+.bodyArtist {
+    color:black;
+    margin:0;
+
+    background-color: rgb(63, 63, 63);
+    background-image:url(../../../ressources/artist/NemesisBackground.png);
+    background-attachment:scroll;
+    background-repeat:no-repeat;
+    background-size: 100% 17vw;
+}
+
+.language {
+    /*Background*/
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 40px;
+    padding: 1%;
+    background-color: rgb(24, 24, 24);
+}
+
+.title {
+    background-color: rgb(46, 46, 46);
+    width: 20%;
+    display: block;
+    margin-left: 15vw;
+    margin-right: auto;
+    margin-top: -25px;
+    padding: 1%;
+
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.03em;
+}
+
+.something { display: block; margin-top: 20vh; }
+
+.bio {
+    background-color: rgb(46, 46, 46);
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    padding: 1%;
+
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.03em;
+}
+
+.disc {
+    background-color: rgb(46, 46, 46);
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    padding: 1%;
+
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 20px;
+
+    /*Ajustement haut et bas*/
+    margin-block-start: -20px;
+    margin-block-end: -20px;
+}
